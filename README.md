@@ -10,6 +10,11 @@ Employee Tracker is a CLI applicaiton for building and maintaining companies emp
 
 The organized-employee-tracker was first created in repository in GitHub. The repository was cloned into local desktop. Any changes made to local was added, commited and pushed to reposotory. NPM inquiere, MYSQL2, console.table were used to built this application. 
 
+## Video Demo
+Below is a walkthrough for organized-employee-tracker application.
+
+https://drive.google.com/file/d/12UTRHtYALJQzUhXTihUvTztht-xpY8AR/view 
+
 
 ## Credits
 
@@ -22,7 +27,7 @@ https://www.sqlservertutorial.net/sql-server-basics/sql-server-self-join/
 
 MIT License
 
-Copyright (c) [] [Horiseon]
+Copyright (c) [2022] [ririhailu]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
