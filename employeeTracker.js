@@ -107,3 +107,11 @@ function viewDept() {
   });
 };
 
+//Function to view all roles
+function viewRoles() {
+  var query = `select id AS Role_ID, title, salary AS Salaries from role;`;
+  connection.query(query, function(err, query){
+    console.table(query);
+    startApp();
+  });
+};
