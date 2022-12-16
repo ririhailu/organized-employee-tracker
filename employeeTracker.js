@@ -58,3 +58,21 @@ function startApp() {
         addRole();
         break;
     
+      case "Remove Employee":
+      removeEmployee();
+      break;
+    
+    case "Update Employee Role":
+      updateEmployeeRole();
+      break;
+    
+    case "Update Employee Manager":
+      updateEmployeeMng();
+      break;
+    
+    case "EXIT":
+      console.log("Thanks for using Employee Tracker! Have a nice day!")
+      process.exit();
+    }
+  });
+}
