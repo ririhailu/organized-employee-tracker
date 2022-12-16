@@ -115,3 +115,14 @@ function viewRoles() {
     startApp();
   });
 };
+
+//Function to add a new employee
+function addEmployee() {
+  //arrays to display prompt choices from database items 
+  var roleChoice = [];
+  connection.query("SELECT * FROM role", function(err, resRole) {
+    if (err) throw err;
+    for (var i = 0; i < resRole.length; i++) {
+      var roleList = resRole[i].title;
+      roleChoice.push(roleList);
+    };
