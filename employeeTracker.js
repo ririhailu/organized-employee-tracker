@@ -87,3 +87,13 @@ function viewEmployees() {
       startApp();
   });
 };
+
+//Function view all employees by department
+function viewEmployeesByDept() {
+  var query =`SELECT departments.name AS department, employees.id, employees.first_name, employees.last_name, role.title FROM employees LEFT JOIN role on 
+  employees.role_id = role.id LEFT JOIN departments departments on role.department_id = departments.id WHERE departments.id;`;
+  connection.query(query, function(err, query){
+    console.table(query);
+    startApp();
+});
+};
