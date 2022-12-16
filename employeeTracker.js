@@ -27,3 +27,34 @@ function startApp() {
         "EXIT"
       ]
     })
+
+    .then(function(answer) {
+      switch (answer.action) {
+      case "View All Employees":
+        viewEmployees();
+        break;
+  
+      case "View All Employees By Department":
+        viewEmployeesByDept();
+        break;
+  
+      case "View departments":
+        viewDept();
+        break;
+      
+      case "View roles":
+        viewRoles();
+        break;
+  
+      case "Add Employee":
+        addEmployee();
+        break;
+    
+      case "Add department":
+        addDept();
+        break;
+      
+      case "Add role":
+        addRole();
+        break;
+    
