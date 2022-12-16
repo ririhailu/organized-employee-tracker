@@ -97,3 +97,13 @@ function viewEmployeesByDept() {
     startApp();
 });
 };
+
+//Function to view all departments
+function viewDept() {
+  var query = `select id AS Dept_ID, name AS departments from departments;`;
+  connection.query(query, function(err, query){
+    console.table(query);
+    startApp();
+  });
+};
+
