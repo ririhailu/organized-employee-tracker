@@ -3,7 +3,12 @@ const mysql = require("mysql")
 const mysql2 = require("mysql2")
 const consoleTable = require("console.table");
 
-const connection = require('./config/connection')
+const connection = require('./config/connection.js')
+
+connection.connect(function(err) {
+  if (err) throw err;
+  startApp();
+})
 
 
 //Function that starts the app and prompt the questions

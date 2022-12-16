@@ -1,12 +1,9 @@
 # organized-employee-tracker
 
-![screenshot](./assets/Screenshot444.png) CHANGE*************************
-
-
 
 ## Description
 
-Employee Tracker is a CLI applicaiton for building and maintaining companies employee data base. Employee allows managers or someone within the company to view all employees, roles, as well as departments. It also allows for adding employees, roles, departments and updating employees all from your CLI.
+Employee Tracker is a CLI applicaiton for building and maintaining companies employee database. Employee allows managers or someone within the company to view all employees, roles, as well as departments. It also allows for adding employees, roles, departments and updating employees all from your CLI.
 
 
 ## Installation
@@ -16,7 +13,7 @@ The organized-employee-tracker was first created in repository in GitHub. The re
 
 ## Credits
 
-I would like to than --------------------for assisting me with this project. 
+I would like to than Sheetal Srikumarfor assisting me with this project. 
 
 https://www.sqlservertutorial.net/sql-server-basics/sql-server-self-join/
 
@@ -46,3 +43,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Review  
+
+https://github.com/ririhailu/organized-employee-tracker 
