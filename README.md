@@ -13,7 +13,7 @@ The organized-employee-tracker was first created in repository in GitHub. The re
 ## Video Demo
 Below is a walkthrough for organized-employee-tracker application.
 
-https://drive.google.com/file/d/12UTRHtYALJQzUhXTihUvTztht-xpY8AR/view 
+https://drive.google.com/file/d/1yXPmjP-EYEvPLF8t3-G6oguYhdVsTPbw/view
 
 
 ## Credits
