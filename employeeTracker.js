@@ -2,8 +2,18 @@ const inquirer = require("inquirer")
 const mysql = require("mysql")
 const mysql2 = require("mysql2")
 const consoleTable = require("console.table");
-
+const figlet = require('figlet');
 const connection = require('./config/connection.js')
+
+figlet('EMPLOYEE TRACKER!!', function(err, data) {
+  if (err) {
+    console.log('Something went wrong...');
+    console.dir(err);
+    return;
+}
+console.log(data)
+});
+
 
 connection.connect(function(err) {
   if (err) throw err;
